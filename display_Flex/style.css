@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ec0000;
+    line-height: 1.6;
+}
+
+#padre {
+    width: 100vmax;
+    height: 100vmax;
+    background-color: aqua;
+    display: flex;
+    gap: 10px; /* Distancia entre hijos */
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.hijo {
+    width: 400px;
+    height: 400px;
+    background-color: #1e5ea7;
+    
+}

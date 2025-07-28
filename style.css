@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+#Caja1 {
+    background-color: #bfec1c;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#Caja2 {
+    background-color: #1e5ea7;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#Caja3 {
+    background-color: #1cec61;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+#Caja4 {
+    background-color: #e00a99;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: block;
+
+}
+
+.bordeGrueso {
+border: 15px solid #000000;
+}
+
+a{
+    padding: 10px;
+    width: 100px;
+    display: inline;
+}
