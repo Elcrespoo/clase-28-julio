@@ -1,4 +1,17 @@
 *{
+    border: #ec0000;
+    margin: auto;
+    padding: auto;
+}
+body{
+background-color:#dcf503 ;
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+
+}
+*{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -18,12 +31,142 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+ border: 3px solid black;
+}
+
+.hijo1 {
+
+    width: 300px;
+    height: 300px;
+    background-color: #1e5ea7;
+    background-color: aquamarine;
+    border-radius: 10%;
+ border: 3px solid black;
+}
+
+.hijo2 {
+    width: 300px;
+    height: 300px;
+    background-color: #1e5ea7;
+    background-color: lightcoral;
+     border-radius: 10%;
+ border: 3px solid black;
+}
+
+.hijo3 {
+    width: 300px;
+    height: 300px;
+    background-color: #1e5ea7;
+    background-color: lightgreen;
+     border-radius: 10%;
+ border: 3px solid black;
+}
+
+.hijo4 {
+    width: 300px;
+    height: 300px;
+    background-color: #1e5ea7;
+    background-color: lightsalmon;
+     border-radius: 10%;
+      border: 3px solid black;
 
 }
 
 .hijo {
+    width: 300px;
+    height: 300px;
+    background-color: #1e5ea7;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+     border-radius: 10%;
+      border: 3px solid black;
+}
+#madre {
+   width: 100vw;
+    height: 90vh;
+    display: flex;
+     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: first baseline;
+    flex-wrap: wrap;
+    background-color: #e3620b;
+     border: 3px solid black;
+    
+}
+.circulo {
     width: 400px;
     height: 400px;
-    background-color: #1e5ea7;
+    background-color: #0fdd16;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+     border-radius: 10%;
+      border: 3px solid black;
+}
+.cuadrado {
+    width: 400px;
+    height: 400px;
+    background-color: #e3620b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+     border-radius: 10%;
+}
+.rectangulo {
+    width: 200px;
+    height: 400px;
+    background-color: #981b96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+     border-radius: 10%;
+}
+.circulo1 {
+    width: 300px;
+    height: 300px;
+    background-color: #0fdd16;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+   border: 3px solid black;
+}
+.circulo2 {
+     width: 400px;
+    height: 400px;
+    background-color: #0fdd16;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+     border: 3px solid black;
+}
+.circulo3 {
+    width: 200px;
+    height: 200px;
+    background-color: #0fdd16;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+  border: 3px solid black;
     
 }
